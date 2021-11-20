@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3kAF+Tlju0ephIY+aFpT0JpeYbHCCoylZWA1otcS/sQ67CIZBpInWXd6h7ytLZ/KvvQ/8wE2w22/E7jeumBSeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cicys\\Desktop\\LocalBusinessApi.Solution\\LocalBusinessApi\\LocalBusinessApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cicys\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
