@@ -44,7 +44,7 @@ namespace LocalBusinessApi.Controllers
       _db.Businesses.Add(business);
       await _db.SaveChangesAsync();
 
-      return CreatedAtAction("Post", new { id = business.BusinessId}, business);
+      return CreatedAtAction(nameof(GetBusiness), new { id = business.BusinessId}, business);
     }
   }
 }
