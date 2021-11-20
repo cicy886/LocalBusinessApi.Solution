@@ -20,7 +20,7 @@ namespace LocalBusinessApi.Controllers
 
     // GET api/businesses
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Business>>> Get(string name, string category, string description, int rate)
+    public async Task<ActionResult<IEnumerable<Business>>> Get(string name, string category, int rate)
     {
       var query = _db.Businesses.AsQueryable();
 
@@ -32,11 +32,6 @@ namespace LocalBusinessApi.Controllers
       if (category !=null)
       {
         query = query.Where(entry => entry.Category == category);
-      }
-
-      if (description !=null)
-      {
-        query = query.Where(entry => entry.Description == description);
       }
 
       if (rate>0 && rate<6)
