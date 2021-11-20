@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using LocalBusinessApi.Models;
 using System.Linq;
+using System;
 
 namespace LocalBusinessApi.Controllers
 {
@@ -108,6 +109,17 @@ namespace LocalBusinessApi.Controllers
 
       return NoContent();
       
+    }
+
+    [HttpGet("random")]
+    public async Task<ActionResult<Business>>GetRandomBusiness(int id)
+    {
+      int highestId = _db.Businesses.Max(e => e.BusinessId);
+      Random rnd = new Random();
+      int randomId = rnd.Next(1, highestId);
+      var RandomBusiness = await _db.Businesses.FindAsync(randomId);
+
+      return RandomBusiness;
     }
 
     private bool BusinessExists(int id)
