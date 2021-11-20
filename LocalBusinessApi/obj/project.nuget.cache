@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "HRO/v6eOTr2vdc9x/3V8ti1xGLn2ouCXHUiYAf/bjmz2gcAEFWe0WNbTNKqEKHSkH6SoGx31LGIf5IzdPdTrnQ==",
+  "dgSpecHash": "FowmAwBc+XVsY0SEjmxy8x813EeZgNJwpD9lfe1uO9RM5v9MU86YBM6zblTzPHvOHTvt/ryV6SNdON6t06eyGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\cicys\\Desktop\\LocalBusinessApi.Solution\\LocalBusinessApi\\LocalBusinessApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cicys\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+    "C:\\Users\\cicys\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\cicys\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
