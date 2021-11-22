@@ -1,6 +1,6 @@
 # Local Business API
 
-#### _An API for a local bussiness lookup. Users can see the list of restaurants and shops in town._
+#### _An API for a local business lookup. Users can see the list of restaurants and shops in town._
 
 #### By **Sisi Vieira**
 
@@ -15,6 +15,7 @@
 * _Microsoft.EntityFrameworkCore.Design 5.0.0_
 * _.NET 5.0 CLI_
 * _Swashbuckle AspNetCore 6.2.3_
+* _Git_
 
 ## Description
 
