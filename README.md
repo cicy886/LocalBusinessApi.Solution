@@ -20,7 +20,7 @@
 ## Description
 
 * A user can use endpoints for GET (all and by id), POST, PUT and DELETE.
-* A second custom endpoint that accepts parameters - name, catergory, and rate(example: a SEARCH route that allows users to search by specific business names).
+* A second custom endpoint that accepts parameters - name, category, and rate(example: a SEARCH route that allows users to search by specific business names).
 * Model scopes should be used to process parameters from API calls.
 
 Scopes:
@@ -61,22 +61,22 @@ Models:
 ### API Endpoints
 _Please use Postman or any api platform to run these endpoints_
 
-- Random - GET `http://localhost:5000/random`
+- Random - GET `http://localhost:5000/api/businesses/random`
   - Returns a random business.
-- Search - GET `http://localhost:5000/search?{params}`
+- Search - GET `http://localhost:5000/api/businesses/search?{params}`
   - Returns all businesses with the given search options.
   - Params can be any combination of `name_search={name}&category_search={category}&rate_search={rate}`
   - See below for examples.
-- Index(all) - GET `http://localhost:5000/businesses`
+- Index(all) - GET `http://localhost:5000/api/businesses`
   - Returns all businesses.
-- Create - POST `http://localhost:5000/businesses?name={name}&category={category}&description={description}&rate={rate}&review={review}`
+- Create - POST `http://localhost:5000/api/businesses?name={name}&category={category}&description={description}&rate={rate}&review={review}`
   - Creates a new business with the given attributes.
-- Show - GET `http://localhost:5000/businesses/{id}`
+- Show - GET `http://localhost:5000/api/businesses/{id}`
   - Returns an business by its id.
-- Update - PUT `http://localhost:5000/businesses/{id}?{params}`
+- Update - PUT `http://localhost:5000/api/businesses/{id}?{params}`
   - Updates a given business with the given attributes.
   - Params can be any combination of `name={name}&category={category}&description={description}&rate={rate}&review={review}`
-- Destroy - DELETE `http://localhost:5000/businesses/{id}`
+- Destroy - DELETE `http://localhost:5000/api/businesses/{id}`
   -Removes the given business from the data base.
 
 ### Using Swagger
